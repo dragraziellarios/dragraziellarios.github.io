@@ -3275,6 +3275,8 @@ input, select, textarea {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
+				text-align: justify;
+				text-justify: inter-word;
 			}
 
 			#wrapper section > footer {
@@ -3337,10 +3339,14 @@ input, select, textarea {
 
 			#wrapper > section > .content > section {
 				position: relative;
+				justify-content: justify;
+
 			}
 
 				#wrapper > section > .content > section:first-child {
 					margin-top: 6rem;
+					justify-content: justify;
+
 				}
 
 			#wrapper > section.intro {
