@@ -1883,8 +1883,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #e98dc5;
-			color: #e98dc5 !important;
+			box-shadow: inset 0 0 0 2px #2ee4bb;
+			color: #2ee4bb !important;
 		}
 
 		input[type="submit"]:active,
@@ -1893,8 +1893,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(73, 252, 212, 0.25);
-			box-shadow: inset 0 0 0 2px #e98dc5;
-			color: #e98dc5 !important;
+			box-shadow: inset 0 0 0 2px #2ee4bb;
+			color: #2ee4bb !important;
 		}
 
 		input[type="submit"].small,
@@ -2135,7 +2135,7 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e98dc5;
+			border-color: #2ee4bb;
 		}
 
 	label {
@@ -3275,8 +3275,6 @@ input, select, textarea {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
-				text-align: justify;
-				text-justify: inter-word;
 			}
 
 			#wrapper section > footer {
@@ -3339,14 +3337,10 @@ input, select, textarea {
 
 			#wrapper > section > .content > section {
 				position: relative;
-				justify-content: justify;
-
 			}
 
 				#wrapper > section > .content > section:first-child {
 					margin-top: 6rem;
-					justify-content: justify;
-
 				}
 
 			#wrapper > section.intro {
@@ -3395,12 +3389,6 @@ input, select, textarea {
 			width: 50vw;
 		}
 
-		#wrapper .copyright1 {
-			color: rgba(0, 0, 0);
-			font-size: 1rem;
-			left: 1vw;
-			width: 30vw;
-		}
 		
 			#wrapper .copyright a {
 				color: inherit;
@@ -3892,4 +3880,8 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
+	}
+
+	.design{
+		margin-left: 10px;
 	}
