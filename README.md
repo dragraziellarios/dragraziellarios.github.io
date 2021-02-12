@@ -6,7 +6,7 @@ Economista, pós graduado em direito processual do trabalho e cientista de dados
 
 # Site Desenvolvido:
 
-### dragraziellariosfernandes.github.io
+### dragraziellarios.github.io
 
 
 # Credits:
